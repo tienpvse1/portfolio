@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import About from "./components/About";
+import Skill from "./components/Skill";
+import Work from "./components/Work";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import ScrollReveal from "scrollreveal";
 
 function App() {
+
+  const sr = ScrollReveal({
+    origin: "top",
+    distance: "80px", 
+    duration: 2000,
+    reset: false,
+  }); 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main className="l-main">
+        <Header />
+        <Main revealer={sr} />
+        <About revealer={sr} />
+        <Skill revealer={sr} />
+        <Work revealer={sr} />
+        <Contact revealer={sr} />
+        <Footer />
+      </main>
     </div>
   );
 }
