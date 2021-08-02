@@ -13,7 +13,7 @@ function Work({revealer}) {
     <section className="work section" id="work">
       <h2 className="section-title">Education</h2>
       <div className="education__text">
-        I was apply for FU, due to my kin told me to, then I start to realize I
+        I applied for FU, due to my kin told me to, then I start to realize I
         really have passion with Software Engineerin'
       </div>
       <div className="work__container bd-grid">
