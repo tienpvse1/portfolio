@@ -18,11 +18,14 @@ function Skill({ revealer }) {
           <h2 className="skills__subtitle">Professional Skills</h2>
           <p className="skills__text">
             Frontend: Experienced with TypeScript, JavaScript and their
-            frameworks: Angular, ReactJS, i can create responsive websites and
-            deploy them <br />
-            Backend: I have experienced with Spring boot, NodeJS. I can design
-            mysql, mssql, mongoDB database, build and maintain web server and
-            use ORM like Hibernate, Sequelize
+            frameworks: Angular, ReactJS, i can create responsive websites with
+            some animations <br />
+            <br />
+            Backend: I have experienced with Spring boot, NodeJS, NestJs. I can
+            design mysql, mssql, mongoDB database, build and maintain web server
+            and use ORM like Hibernate, TypeOrm
+            <br />
+            And some other stuff like eslint, prettier,git...
           </p>
           <div className="skills__data">
             <div className="skills__names">
@@ -31,7 +34,7 @@ function Skill({ revealer }) {
             </div>
 
             <div>
-              <span className="skills__percentage">75%</span>
+              <span className="skills__percentage">80%</span>
             </div>
 
             <div className="skills__bar skills__react"></div>
@@ -43,7 +46,7 @@ function Skill({ revealer }) {
             </div>
 
             <div>
-              <span className="skills__percentage">80%</span>
+              <span className="skills__percentage">60%</span>
             </div>
 
             <div className="skills__bar skills__angular"></div>
@@ -55,7 +58,7 @@ function Skill({ revealer }) {
             </div>
 
             <div>
-              <span className="skills__percentage">65%</span>
+              <span className="skills__percentage">85%</span>
             </div>
 
             <div className="skills__bar skills__node"></div>
@@ -67,7 +70,7 @@ function Skill({ revealer }) {
             </div>
 
             <div>
-              <span className="skills__percentage">75%</span>
+              <span className="skills__percentage">55%</span>
             </div>
 
             <div className="skills__bar skills__spring"></div>
